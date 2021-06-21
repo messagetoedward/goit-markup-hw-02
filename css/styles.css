@@ -20,7 +20,7 @@
 body {
   color: var(--main-text-color);
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: 500;
 
   letter-spacing: 0.03em;
 }
