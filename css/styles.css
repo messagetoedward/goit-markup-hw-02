@@ -1,0 +1,236 @@
+:root {
+  --main-font: "roboto", sans-serif;
+  --secondary-font: "raleway", sans-serif;
+  --main-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-p2-header-color: #000000;
+  --nav-address-color: #757575;
+  --hero-footer-background-color: #2f303a;
+  --hero-title-color: #ffffff;
+  --hero-button-color: #ffffff;
+  --hero-button-background-color: #188ce8;
+  --features-text-team-position-portfolio-projects-text: #757575;
+  --portfolio-button-background-color: #f5f4fa;
+  --portfolio-button-background-color-hover: #2196f3;
+  --portfolio-button-hover-focus-color: #ffffff;
+  --logo-p2-footer-color: #ffffff;
+  --address-street-color: #ffffff;
+}
+
+body {
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-weight: 400;
+
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ==========WEB STUDIO========== */
+
+/* =====header====== */
+
+.logo-p1 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo-p2 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-p2-header-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--nav-address-color);
+
+  text-decoration: none;
+}
+
+.nav-address:hover,
+.nav-address:focus {
+  color: var(--accent-color);
+}
+/* =====END header====== */
+
+/* =====hero===== */
+
+.hero-title {
+  background-color: var(--hero-footer-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--hero-title-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--hero-button-color);
+  background-color: var(--accent-color);
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--hero-button-background-color);
+  cursor: pointer;
+}
+
+/* =====END hero===== */
+
+/* =====features===== */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--features-text-team-position-portfolio-projects-text);
+}
+
+/* =====END features===== */
+
+/* =====our job===== */
+
+.our-job {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* =====END our job===== */
+
+/* =====our team===== */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--features-text-team-position-portfolio-projects-text);
+}
+
+/* =====END our team===== */
+
+/* =====footer===== */
+
+.footer {
+  background-color: var(--hero-footer-background-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo-p2-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-p2-footer-color);
+}
+
+.address-street {
+  color: var(--address-street-color);
+
+  text-decoration: none;
+}
+
+.address-email,
+.address-tel {
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+}
+/* =====END footer===== */
+
+/* ==========PORTFOLIO========== */
+
+/* =====portfolio-button===== */
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--portfolio-button-background-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--portfolio-button-hover-focus-color);
+  background-color: var(--portfolio-button-background-color-hover);
+  cursor: pointer;
+}
+
+/* ===== END portfolio-button===== */
+
+/* =====portfolio-works===== */
+.portfolio-projects {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--features-text-team-position-portfolio-projects-text);
+}
